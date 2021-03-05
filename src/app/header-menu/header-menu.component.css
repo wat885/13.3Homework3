@@ -1,0 +1,32 @@
+a{
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    width: 200px;
+}
+button{
+    padding: 5px;
+    color: orangered;
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+.gridNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+.leftMenu{
+    padding: 15px 35px;
+}
+.rightMenu{
+    text-align: right;
+    padding: 25px 35px;
+}

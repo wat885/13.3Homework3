@@ -1,0 +1,21 @@
+.content{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+}
+.white{
+    color: orangered;
+
+}
+.orange{
+    background: orangered;
+    color: white;
+}
+
+

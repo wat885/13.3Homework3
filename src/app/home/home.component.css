@@ -1,0 +1,41 @@
+.container{
+    background: url(../../assets/img/auth-background.d98d7ff313fe2ec07d45.png);
+    height: 40vh; 
+}
+.content {
+    /* background-color: #FB5731; */
+    /* border: 0.5px solid black;
+    box-sizing: border-box; */
+    /* padding: 10px; */
+}
+
+.grid{
+    /* width: 80%;
+    margin: auto; */
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10vh  20vh 10vh 50vh;
+    grid-template-areas: 
+        'menu menu'
+        'signUp signUp'
+        'search search'
+        'Need Need'
+
+    ;
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.signUp{
+    grid-area: signUp;
+}
+.search{
+    grid-area: search;
+}
+.Need{
+    grid-area: Need;
+}
+
